@@ -50,16 +50,19 @@ footer {
   clear: both;
 }
 .image{
-  height: 50%;
-  width: 50%;
-  margin-left: 250px;
-  border: 10px solid whitesmoke;
-  border-width: 10px 10px;
+  width: 45%;
+  height: 45%;
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center;
 }
 #web{
   text-align: center;
   font-size: 3.5rem;
   text-decoration: dashed;
+}
+#center{
+  width: 45%;
 }
 @media  (max-width:680px){
   .logo{
@@ -68,9 +71,19 @@ footer {
   #ani{
     width: 100px;
   }
-  .image{
+  .center{
     width: 100%;
+    text-align: justify;
+    display: block;
+    margin-bottom: 30px;
+    margin: 0px;
   }
+ .center img{
+  margin-bottom: 10px;
+    width: 100%;
+    display: inline;
+    object-fit: cover;
+ }
   h1{
     font-size: 3rem;
     text-align: center;
