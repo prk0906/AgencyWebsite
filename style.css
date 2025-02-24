@@ -8,13 +8,21 @@ body {
   background-color:black;
   color: white;
 }
+#ani{
+  width: 200px;
+  position: absolute;
+  right: 30px;
+  top: 15px;
+  border: 10px solid rgb(235, 229, 194);
+  border-radius: 5px;
+}
 .main {
   flex: 1;
 }
 
 h1 {
   font-size: 5rem;
-  text-shadow: 1px 2px 3px whitesmoke;
+  text-shadow: 2px 2px 2px whitesmoke;
 }
 
 footer {
@@ -38,7 +46,22 @@ footer {
 .creative {
   color: midnightblue;
 }
-
+#footer{
+  clear: both;
+}
+.image{
+  height: 50%;
+  width: 50%;
+  margin-left: 350px;
+  margin-top: 30px;
+  border: 10px solid whitesmoke;
+  border-width: 10px 10px;
+}
+#web{
+  text-align: center;
+  font-size: 3.5rem;
+  text-decoration: dashed;
+}
 @media  (max-width:680px){
   .logo{
     width: 100px;
